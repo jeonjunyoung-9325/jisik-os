@@ -8,7 +8,7 @@
     {
       "binding": "DB",
       "database_name": "jisik-os",
-      "database_id": "replace-with-your-d1-database-id"
+      "database_id": "7d78544a-edce-48b6-ac95-beb6924ab5d3"
     }
   ],
   "observability": {
