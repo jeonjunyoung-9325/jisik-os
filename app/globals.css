@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Pretendard Variable", "Pretendard", "SUIT Variable", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --color-canvas: #f4f1ea;
+  --color-panel: #f0ebe3;
+  --color-line: #ddd3c4;
+  --color-ink: #1f2421;
+  --color-muted: #6d6a64;
+  --color-accent: #476c5b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top right, rgba(71, 108, 91, 0.08), transparent 28%),
+    linear-gradient(180deg, #f8f5ef 0%, #f4f1ea 100%);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: rgba(71, 108, 91, 0.18);
+}
+
+.prose {
+  color: var(--color-ink);
+}
+
+.prose a {
+  color: var(--color-accent);
+}

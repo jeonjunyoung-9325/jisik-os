@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jisik-os",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-03-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jisik-os",
+      "database_id": "replace-with-your-d1-database-id"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

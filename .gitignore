@@ -1,0 +1,10 @@
+.next
+.open-next
+.wrangler
+node_modules
+.env
+.env.local
+dist
+npm-debug.log*
+wrangler.tmp
+tsconfig.tsbuildinfo
